@@ -3,7 +3,7 @@
         <div class="card main-content">
             <div class="header">
                 <h2>
-                    @L("DepartmentPrachi")
+                    @L("Departments")
                 </h2>
                     <i class="fa fa-spin fa-spinner" ng-if="vm.isTableLoading"></i>
                 <ul class="header-dropdown m-r--5">
@@ -37,8 +37,8 @@
                             <td>{{department.departmentName}}</td>
                             <td>{{department.employeeCount}}</td>
                             <td align="center">
-                                <i class="material-icons" ng-if="department.isActive" style="color:green;">check_box</i>
-                                <i class="material-icons" ng-if="!department.isActive" style="color:red;">indeterminate_check_box</i>
+                                <i class="material-icons" ng-click="vm.openChangeStatusPopup(department)" ng-if="department.isActive" style="color:green;">check_box</i>
+                                <i class="material-icons" ng-click="vm.openChangeStatusPopup(department)" ng-if="!department.isActive" style="color:red;">indeterminate_check_box</i>
                             </td>
 
                             <td class="dropdown">

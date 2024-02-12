@@ -68,7 +68,22 @@
                 }
 
 
+                vm.openChangeStatusPopup = function (department) {
+                    abp.message.confirm(
+                        "Change active status of department '" + department.departmentName + "'?",
+                        "Change Active Status",
+                        function (result) {
+                            if (result) {
+                                departmentService.toggleDepartmentActive({ id: department.id })
+                                    .then(function () {
+                                        abp.notify.info("Changed active status of department: " + department.departmentName);
+                                        getDepartments();
+                                    });
+                            }
+                        });
+                };
 
+              
                 var init = function () {
                     getTest();
                 }

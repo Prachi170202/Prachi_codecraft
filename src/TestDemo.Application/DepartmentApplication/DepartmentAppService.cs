@@ -70,6 +70,20 @@ namespace TestDemo.DepartmentApplication
             await _departmentRepository.DeleteAsync(input.Id);
         }
 
+        public async Task  ToggleDepartmentActive(EntityDto input)
+        {
+            var department = await _departmentRepository.GetAsync(input.Id);
+            if (department.IsActive == true)
+            {
+                var active = _departmentRepository.GetAll().Where(x => x.IsActive == true).ToList();
+            }
+            else
+            {
+                var inActive = _departmentRepository.GetAll().Where(x => x.IsActive == false).ToList();
+            }
+        }
+
+        
 
     }
 }

@@ -4,7 +4,9 @@
         function ($scope, $uibModalInstance, departmentService) {
             var vm = this;
 
-            vm.department = {};
+            vm.department = {
+                isActive: true
+        };
 
 
             vm.save = function () {

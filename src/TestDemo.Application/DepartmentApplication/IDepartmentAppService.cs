@@ -16,5 +16,6 @@ namespace TestDemo.DepartmentApplication
         Task CreateDepartment(DepartmentDto input);
         Task UpdateDepartment(DepartmentDto input);
         Task Delete(EntityDto input);
+        Task ToggleDepartmentActive(EntityDto input);
     }
 }
