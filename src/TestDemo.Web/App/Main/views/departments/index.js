@@ -77,7 +77,7 @@
                                 departmentService.toggleDepartmentActive({ id: department.id })
                                     .then(function () {
                                         abp.notify.info("Changed active status of department: " + department.departmentName);
-                                        getDepartments();
+                                        getTest();
                                     });
                             }
                         });

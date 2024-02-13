@@ -19,6 +19,20 @@
             </div>
             <div class="body table-responsive">
 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card main-content">
+                        <div class="header">
+                            <h2>
+                                Dropdown for Another Department
+                            </h2>
+                        </div>
+                        <div class="body">
+                            <select ng-model="selectedDepartment" ng-options="dept.departmentName for dept in vm.departments"></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <!-- ******************************************************** -->
                 <table class="table table-hover table-striped">
                     <thead>
