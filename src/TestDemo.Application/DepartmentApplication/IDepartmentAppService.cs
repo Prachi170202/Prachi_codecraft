@@ -17,5 +17,6 @@ namespace TestDemo.DepartmentApplication
         Task UpdateDepartment(DepartmentDto input);
         Task Delete(EntityDto input);
         Task ToggleDepartmentActive(EntityDto input);
+        List<BindDepartmentIdDto> BindDepartmentIds();
     }
 }

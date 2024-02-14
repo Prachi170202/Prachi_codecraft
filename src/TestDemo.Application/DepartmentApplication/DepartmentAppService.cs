@@ -71,7 +71,7 @@
             }
 
            public async Task ToggleDepartmentActive(EntityDto input)
-       {
+           {
               var department = await _departmentRepository.GetAsync(input.Id);
               if (department != null)
               {
@@ -79,6 +79,22 @@
                 await _departmentRepository.UpdateAsync(department);
               }
         }
-      
+
+        public List<BindDepartmentIdDto> BindDepartmentIds()
+        {
+            var department = (
+                from d in _departmentRepository.GetAll()
+                            select new BindDepartmentIdDto
+                {
+                    Id = d.Id,
+                    DepartmentName = d.DepartmentName
+                })
+                .ToList();
+
+            return department;
         }
+
+
+
     }
+}

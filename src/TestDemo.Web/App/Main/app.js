@@ -65,6 +65,11 @@
                     url: '/departments',
                     templateUrl: '/App/Main/views/departments/index.cshtml',
                     menu: 'DepartmentApplication' //Matches to name of 'About' menu in TestDemoNavigationProvider
+                })
+                .state('companyy', {
+                    url: '/companyy',
+                    templateUrl: '/App/Main/views/companyy/index.cshtml',
+                    menu: 'CompanyApplication' //Matches to name of 'About' menu in TestDemoNavigationProvider
                 });
         }
     ]);

@@ -275,6 +275,10 @@
     <Compile Include="Migrations\202402090622188_Prachi.designer.cs">
       <DependentUpon>202402090622188_Prachi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402140649321_Departmentnames.cs" />
+    <Compile Include="Migrations\202402140649321_Departmentnames.designer.cs">
+      <DependentUpon>202402140649321_Departmentnames.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestDemoDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -428,6 +432,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402090622188_Prachi.resx">
       <DependentUpon>202402090622188_Prachi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402140649321_Departmentnames.resx">
+      <DependentUpon>202402140649321_Departmentnames.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

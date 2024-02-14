@@ -238,6 +238,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\Departmentname.cs" />
     <Compile Include="Department\ITdepartment.cs" />
     <Compile Include="TestDemoConsts.cs" />
     <Compile Include="TestDemoCoreModule.cs" />

@@ -13,6 +13,10 @@
                 createMenuItem(App.localize("Roles"), "Pages.Roles", "local_offer", "roles"),
                 createMenuItem(App.localize("About"), "", "info", "about"),
                 createMenuItem(App.localize("Department"), "", "info", "departments"),
+                createMenuItem(App.localize("Company"), "", "info", "departments"),
+
+
+                
 
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [
                     createMenuItem("ASP.NET Boilerplate", "", "", "", [

@@ -526,6 +526,7 @@
       <DependentUpon>main.css</DependentUpon>
     </Content>
     <Content Include="App\Main\services\appSession.js" />
+    <Content Include="App\Main\views\companyy\index.js" />
     <Content Include="App\Main\views\departments\createDepartment.js" />
     <Content Include="App\Main\views\departments\editDepartment.js" />
     <Content Include="App\Main\views\departments\index.js" />
@@ -2778,6 +2779,7 @@
     <Content Include="App\Main\views\departments\index.cshtml" />
     <Content Include="App\Main\views\departments\createDepartment.cshtml" />
     <Content Include="App\Main\views\departments\editDepartment.cshtml" />
+    <Content Include="App\Main\views\companyy\index.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

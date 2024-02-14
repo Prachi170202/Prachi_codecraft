@@ -6,6 +6,7 @@ using TestDemo.Authorization.Roles;
 using TestDemo.Authorization.Users;
 using TestDemo.MultiTenancy;
 using TestDemo.Department;
+using TestDemo.Company;
 
 namespace TestDemo.EntityFramework
 {
@@ -19,6 +20,7 @@ namespace TestDemo.EntityFramework
          *   pass connection string name to base classes. ABP works either way.
          */
         public virtual IDbSet<ITdepartment> Prachi { get; set; }
+        public virtual IDbSet<Departmentname> Departmentnames { get; set; }
         public TestDemoDbContext()
             : base("Default")
         {
