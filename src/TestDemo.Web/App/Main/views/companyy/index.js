@@ -1,23 +1,24 @@
 ﻿(function () {
     angular.module('app').controller('app.views.companyy.index',
-        ['$scope', '$timeout', '$uibModal', 'abp.services.app.department',
-            function ($scope, $timeout, $uibModal, departmentService) {
+        ['$scope', '$timeout', '$uibModal', 'abp.services.app.company',
+            function ($scope, $timeout, $uibModal, companyService) {
                 var vm = this;
 
                 vm.company = [];
 
 
                 function getTest() {
-                    departmentService.getAllEmploye({}).then(function (result) {
-                        vm.department = result.data;
+                    companyService.getAllEmploye({}).then(function (result) {
+                        vm.company = result.data;
 
                     });
                 }
 
                 vm.openCreateDepartment = function () {
+                   
                     var modalInstance = $uibModal.open({
-                        templateUrl: '/App/Main/views/departments/createDepartment.cshtml',
-                        controller: 'app.views.departments.createDepartment as vm',
+                        templateUrl: '/App/Main/views/companyy/createCompany.cshtml',
+                        controller: 'app.views.companyy.createCompany as vm',
                         backdrop: 'static'
                     });
 

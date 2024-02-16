@@ -17,9 +17,12 @@ namespace TestDemo.CompanyApplication
     public class CompanyAppService : TestDemoApplicationModule, ICompanyAppService
     {
         private readonly IRepository<Departmentname> _companyRepository;
-        public CompanyAppService(IRepository<Departmentname> companyRepository)
+
+        private readonly IRepository<ITdepartment> _departmentRepository;
+        public CompanyAppService(IRepository<Departmentname> companyRepository, IRepository<ITdepartment> departmentRepository)
         {
             _companyRepository = companyRepository;
+            _departmentRepository = departmentRepository;
         }
 
 
@@ -64,7 +67,7 @@ namespace TestDemo.CompanyApplication
         public List<BindDepartmentIdDto> BindDepartmentIds()
         {
             var company = (
-                from d in _companyRepository.GetAll()
+                from d in _departmentRepository.GetAll()
                 select new BindDepartmentIdDto
                 {
                     Id = d.Id,
