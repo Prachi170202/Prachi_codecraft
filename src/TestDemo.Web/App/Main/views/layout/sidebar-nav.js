@@ -14,6 +14,7 @@
                 createMenuItem(App.localize("About"), "", "info", "about"),
                 createMenuItem(App.localize("Department"), "", "info", "departments"),
                 createMenuItem(App.localize("Company"), "", "info", "companyy"),
+                createMenuItem(App.localize("Product"), "", "info", "products"),
 
 
                 

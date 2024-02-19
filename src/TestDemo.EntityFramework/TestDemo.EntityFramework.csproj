@@ -279,6 +279,22 @@
     <Compile Include="Migrations\202402140649321_Departmentnames.designer.cs">
       <DependentUpon>202402140649321_Departmentnames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402190618099_Collagereports.cs" />
+    <Compile Include="Migrations\202402190618099_Collagereports.designer.cs">
+      <DependentUpon>202402190618099_Collagereports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402190830442_Productss.cs" />
+    <Compile Include="Migrations\202402190830442_Productss.designer.cs">
+      <DependentUpon>202402190830442_Productss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402190942172_Producted.cs" />
+    <Compile Include="Migrations\202402190942172_Producted.designer.cs">
+      <DependentUpon>202402190942172_Producted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402191344225_Productnames.cs" />
+    <Compile Include="Migrations\202402191344225_Productnames.designer.cs">
+      <DependentUpon>202402191344225_Productnames.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestDemoDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -435,6 +451,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402140649321_Departmentnames.resx">
       <DependentUpon>202402140649321_Departmentnames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402190618099_Collagereports.resx">
+      <DependentUpon>202402190618099_Collagereports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402190830442_Productss.resx">
+      <DependentUpon>202402190830442_Productss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402190942172_Producted.resx">
+      <DependentUpon>202402190942172_Producted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402191344225_Productnames.resx">
+      <DependentUpon>202402191344225_Productnames.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

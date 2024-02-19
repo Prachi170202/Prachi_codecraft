@@ -240,6 +240,7 @@
   <ItemGroup>
     <Compile Include="Company\Departmentname.cs" />
     <Compile Include="Department\ITdepartment.cs" />
+    <Compile Include="Product\Productname.cs" />
     <Compile Include="TestDemoConsts.cs" />
     <Compile Include="TestDemoCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />
@@ -298,6 +299,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Source\TestDemo-vi.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

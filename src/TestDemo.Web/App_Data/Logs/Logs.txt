@@ -13543,3 +13543,503 @@ WARN  2024-02-15 12:34:28,616 [166  ] naries.DictionaryBasedLocalizationSource -
 WARN  2024-02-15 12:34:28,616 [166  ] naries.DictionaryBasedLocalizationSource - Can not find 'EmployeeCount' in localization source 'TestDemo'!
 WARN  2024-02-15 12:36:34,160 [170  ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'TestDemo'!
 DEBUG 2024-02-15 12:44:49,119 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cf9d3d3f-2002-4f40-9725-a3d07ea75f87
+DEBUG 2024-02-19 11:08:12,925 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-19 11:08:12,981 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2024-02-19 11:08:12,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Web.TestDemoWebModule, TestDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoDataModule, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoCoreModule, TestDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoApplicationModule, TestDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Api.TestDemoWebApiModule, TestDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:13,014 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2024-02-19 11:08:13,660 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 11:08:13,660 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 11:08:13,660 [1    ] o.Configuration.LanguageManagementConfig - Converted TestDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 11:08:13,660 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 11:08:14,336 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestDemo.EntityFramework.TestDemoDbContext, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 11:08:19,198 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-19 11:08:19,311 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-19 11:08:19,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-19 11:08:19,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestDemo
+DEBUG 2024-02-19 11:08:19,392 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-19 11:08:19,538 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-02-19 11:08:19,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2024-02-19 11:08:19,689 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-19 11:08:19,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-19 11:08:19,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.CreateUserDto
+DEBUG 2024-02-19 11:08:19,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UpdateUserDto
+DEBUG 2024-02-19 11:08:19,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UserDto
+DEBUG 2024-02-19 11:08:19,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Roles.Dto.PermissionDto
+DEBUG 2024-02-19 11:08:19,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-19 11:08:19,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.EditTenantDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.BindDepartmentIdDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.DepartmentDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.GetDepartmentDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.CompanyDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.GetCompanyDto
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantChangeViewModel
+DEBUG 2024-02-19 11:08:19,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2024-02-19 11:08:22,694 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2024-02-19 11:08:22,697 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2024-02-19 11:08:22,700 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2024-02-19 11:08:22,701 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2024-02-19 11:08:22,703 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2024-02-19 11:08:22,705 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2024-02-19 11:08:22,707 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.DepartmentApplication.IDepartmentAppService' with service name 'app/department'.
+DEBUG 2024-02-19 11:08:22,708 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.CompanyApplication.ICompanyAppService' with service name 'app/company'.
+DEBUG 2024-02-19 11:09:34,146 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4ef8a863-5755-475c-8027-b76cbde56abe","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2024-02-19T11:09:34.1302689+05:30","Properties":{}}
+DEBUG 2024-02-19 11:09:34,308 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4ef8a863-5755-475c-8027-b76cbde56abe
+WARN  2024-02-19 11:12:38,891 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Departments' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:38,892 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:38,892 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'DepartmentName' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:38,893 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmployeeCount' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:46,807 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Company' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:46,807 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:46,808 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DepartmentName' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:46,808 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmployeeCount' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:50,887 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewCompany' in localization source 'TestDemo'!
+WARN  2024-02-19 11:12:50,887 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'DepartmentName' in localization source 'TestDemo'!
+DEBUG 2024-02-19 14:56:42,393 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-19 14:56:42,655 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2024-02-19 14:56:42,669 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Web.TestDemoWebModule, TestDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoDataModule, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoCoreModule, TestDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:42,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoApplicationModule, TestDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Api.TestDemoWebApiModule, TestDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:43,093 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2024-02-19 14:56:43,696 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 14:56:43,697 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 14:56:43,697 [1    ] o.Configuration.LanguageManagementConfig - Converted TestDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 14:56:43,697 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 14:56:44,427 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestDemo.EntityFramework.TestDemoDbContext, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 14:56:49,088 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-19 14:56:49,195 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-19 14:56:49,223 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-19 14:56:49,233 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestDemo
+DEBUG 2024-02-19 14:56:49,246 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-19 14:56:49,376 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-02-19 14:56:49,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2024-02-19 14:56:49,530 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-19 14:56:49,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-19 14:56:49,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.CreateUserDto
+DEBUG 2024-02-19 14:56:49,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UpdateUserDto
+DEBUG 2024-02-19 14:56:49,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UserDto
+DEBUG 2024-02-19 14:56:49,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Roles.Dto.PermissionDto
+DEBUG 2024-02-19 14:56:49,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.EditTenantDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.ProductApplication.Dto.Productdto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.BindDepartmentIdDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.DepartmentDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.GetDepartmentDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.CompanyDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.GetCompanyDto
+DEBUG 2024-02-19 14:56:49,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantChangeViewModel
+DEBUG 2024-02-19 14:56:49,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2024-02-19 14:56:52,345 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2024-02-19 14:56:52,348 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2024-02-19 14:56:52,351 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2024-02-19 14:56:52,353 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2024-02-19 14:56:52,355 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2024-02-19 14:56:52,357 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2024-02-19 14:56:52,359 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.ProductApplication.IProductAppService' with service name 'app/product'.
+DEBUG 2024-02-19 14:56:52,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.DepartmentApplication.IDepartmentAppService' with service name 'app/department'.
+DEBUG 2024-02-19 14:56:52,365 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.CompanyApplication.ICompanyAppService' with service name 'app/company'.
+WARN  2024-02-19 14:57:30,603 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestDemo.EntityFramework.TestDemoDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The model backing the 'TestDemoDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestDemo.EntityFramework.TestDemoDbContext..ctor(String nameOrConnectionString) in D:\Sourcetree_project\CodeCraft\src\TestDemo.EntityFramework\EntityFramework\TestDemoDbContext.cs:line 38
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate TestDemo.EntityFramework.TestDemoDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The model backing the 'TestDemoDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at TestDemo.EntityFramework.TestDemoDbContext..ctor(String nameOrConnectionString) in D:\Sourcetree_project\CodeCraft\src\TestDemo.EntityFramework\EntityFramework\TestDemoDbContext.cs:line 38
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+DEBUG 2024-02-19 15:07:52,612 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-19 15:07:54,732 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2024-02-19 15:07:54,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Web.TestDemoWebModule, TestDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoDataModule, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoCoreModule, TestDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoApplicationModule, TestDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Api.TestDemoWebApiModule, TestDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:54,774 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2024-02-19 15:07:57,150 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 15:07:57,150 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 15:07:57,150 [1    ] o.Configuration.LanguageManagementConfig - Converted TestDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 15:07:57,150 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 15:07:57,970 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestDemo.EntityFramework.TestDemoDbContext, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 15:07:59,953 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-19 15:08:00,109 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-19 15:08:00,149 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-19 15:08:00,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestDemo
+DEBUG 2024-02-19 15:08:00,178 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-19 15:08:00,332 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-02-19 15:08:00,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2024-02-19 15:08:00,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-19 15:08:00,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-19 15:08:00,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.CreateUserDto
+DEBUG 2024-02-19 15:08:00,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UpdateUserDto
+DEBUG 2024-02-19 15:08:00,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UserDto
+DEBUG 2024-02-19 15:08:00,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Roles.Dto.PermissionDto
+DEBUG 2024-02-19 15:08:00,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.EditTenantDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.ProductApplication.Dto.Productdto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.BindDepartmentIdDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.DepartmentDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.GetDepartmentDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.CompanyDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.GetCompanyDto
+DEBUG 2024-02-19 15:08:00,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantChangeViewModel
+DEBUG 2024-02-19 15:08:00,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2024-02-19 15:08:03,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2024-02-19 15:08:03,583 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2024-02-19 15:08:03,586 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2024-02-19 15:08:03,588 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2024-02-19 15:08:03,591 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2024-02-19 15:08:03,593 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2024-02-19 15:08:03,595 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.ProductApplication.IProductAppService' with service name 'app/product'.
+DEBUG 2024-02-19 15:08:03,598 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.DepartmentApplication.IDepartmentAppService' with service name 'app/department'.
+DEBUG 2024-02-19 15:08:03,600 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.CompanyApplication.ICompanyAppService' with service name 'app/company'.
+DEBUG 2024-02-19 19:25:50,348 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-19 19:25:50,430 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2024-02-19 19:25:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Web.TestDemoWebModule, TestDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoDataModule, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoCoreModule, TestDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.TestDemoApplicationModule, TestDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TestDemo.Api.TestDemoWebApiModule, TestDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:25:50,484 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2024-02-19 19:25:51,623 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 19:25:51,623 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 19:25:51,623 [1    ] o.Configuration.LanguageManagementConfig - Converted TestDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 19:25:51,623 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-19 19:25:53,058 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TestDemo.EntityFramework.TestDemoDbContext, TestDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-19 19:26:00,425 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-19 19:26:00,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-19 19:26:00,684 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-19 19:26:00,710 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TestDemo
+DEBUG 2024-02-19 19:26:00,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-19 19:26:01,011 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-02-19 19:26:01,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2024-02-19 19:26:01,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-19 19:26:01,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-19 19:26:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.CreateUserDto
+DEBUG 2024-02-19 19:26:01,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UpdateUserDto
+DEBUG 2024-02-19 19:26:01,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Users.Dto.UserDto
+DEBUG 2024-02-19 19:26:01,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Roles.Dto.PermissionDto
+DEBUG 2024-02-19 19:26:01,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-19 19:26:01,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.EditTenantDto
+DEBUG 2024-02-19 19:26:01,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.BindDepartmentIdDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.DepartmentDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.DepartmentApplication.Dto.GetDepartmentDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.CompanyDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.CompanyApplication.Dto.GetCompanyDto
+DEBUG 2024-02-19 19:26:01,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantChangeViewModel
+DEBUG 2024-02-19 19:26:01,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TestDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2024-02-19 19:26:06,340 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2024-02-19 19:26:06,344 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2024-02-19 19:26:06,349 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2024-02-19 19:26:06,353 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2024-02-19 19:26:06,357 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2024-02-19 19:26:06,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2024-02-19 19:26:06,366 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.DepartmentApplication.IDepartmentAppService' with service name 'app/department'.
+DEBUG 2024-02-19 19:26:06,370 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TestDemo.CompanyApplication.ICompanyAppService' with service name 'app/company'.
+WARN  2024-02-19 19:31:59,593 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+WARN  2024-02-19 19:39:47,714 [40   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()

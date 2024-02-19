@@ -7,6 +7,8 @@ using TestDemo.Authorization.Users;
 using TestDemo.MultiTenancy;
 using TestDemo.Department;
 using TestDemo.Company;
+using TestDemo.Product;
+
 
 namespace TestDemo.EntityFramework
 {
@@ -21,6 +23,7 @@ namespace TestDemo.EntityFramework
          */
         public virtual IDbSet<ITdepartment> Prachi { get; set; }
         public virtual IDbSet<Departmentname> Departmentnames { get; set; }
+        public virtual IDbSet<Productname> Productnames { get; set; }
         public TestDemoDbContext()
             : base("Default")
         {

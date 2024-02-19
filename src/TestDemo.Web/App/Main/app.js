@@ -70,6 +70,11 @@
                     url: '/companyy',
                     templateUrl: '/App/Main/views/companyy/index.cshtml',
                     menu: 'CompanyApplication' //Matches to name of 'About' menu in TestDemoNavigationProvider
+                })
+                .state('products', {
+                    url: '/products',
+                    templateUrl: '/App/Main/views/products/index.cshtml',
+                    menu: 'productApplication' //Matches to name of 'About' menu in TestDemoNavigationProvider
                 });
         }
     ]);
